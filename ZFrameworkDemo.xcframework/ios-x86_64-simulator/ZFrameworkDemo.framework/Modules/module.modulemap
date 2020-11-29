@@ -1,0 +1,11 @@
+framework module ZFrameworkDemo {
+  umbrella header "ZFrameworkDemo.h"
+
+  export *
+  module * { export * }
+}
+
+module ZFrameworkDemo.Swift {
+    header "ZFrameworkDemo-Swift.h"
+    requires objc
+}
